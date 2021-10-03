@@ -41,6 +41,7 @@ export default function App() {
       <h1> Emoji Interpreter App </h1>
 
       <input
+        style={{ padding: "1rem" }}
         placeholder="Enter your emoji here..."
         onChange={onChangeListener}
       />
